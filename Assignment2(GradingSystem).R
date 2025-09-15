@@ -1,14 +1,16 @@
-marks <- 72   
+grades <- 72   
 
-if (marks >= 90 && marks <= 100) {
+print(paste("Input:",grades))
+
+if (grades >= 90 && grades <= 100) {
   print("Grade: A")
-} else if (marks >= 80 && marks <= 89) {
+} else if (grades >= 80 && grades <= 89) {
   print("Grade: B")
-} else if (marks >= 70 && marks <= 79) {
+} else if (grades >= 70 && grades <= 79) {
   print("Grade: C")
-} else if (marks >= 60 && marks <= 69) {
+} else if (grades >= 60 && grades <= 69) {
   print("Grade: D")
-} else if (marks < 60) {
+} else if (grades < 60) {
   print("Grade: F")
 } else {
   print("Invalid input.")
