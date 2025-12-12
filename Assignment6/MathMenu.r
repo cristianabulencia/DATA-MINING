@@ -1,7 +1,5 @@
-
 num1 <- as.numeric(readline(prompt = "Enter first number: "))
 num2 <- as.numeric(readline(prompt = "Enter second number: "))
-
 
 cat("Select operation:\n",
     "1: Add\n",
@@ -10,7 +8,6 @@ cat("Select operation:\n",
     "4: Divide\n")
 
 choice <- readline(prompt = "Enter your choice (1-4): ")
-
 
 result <- switch(
     choice,
